@@ -1,0 +1,454 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.primarybtn {
+  background-color: #f39200;
+  border-color: #f39200;
+  width: 137px;
+  height: 52px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  background: url(s1.png);
+  background-size: 100% 100%;
+  min-height: 600px;
+}
+.firstsec {
+  margin-top: 40px;
+}
+.firstsec h1 {
+  color: #f39200 !important;
+  font-weight: 700 !important;
+  font-size: 56px !important;
+  line-height: 61px !important;
+}
+.list {
+  margin-top: 40px;
+}
+.list ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 25px;
+  margin-bottom: 12px;
+}
+.secondsec {
+  background: #ffffff73;
+  width: 315px;
+  min-height: 285px;
+  border-radius: 10px;
+  position: absolute;
+
+  bottom: -66px;
+  right: -22px;
+}
+.formm {
+  position: relative;
+}
+.secondsec form {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.secondsec form input {
+  width: 255px;
+  height: 65px;
+  border-radius: 10px;
+  /* background: #1D272E40; */
+}
+
+.secondsec form input::placeholder {
+  color: #1d272e40;
+}
+button.btn.btn-outline-primary.btnsub {
+  width: 137px;
+  height: 52px;
+  border-color: #f39200;
+  color: #f39200;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  .secondsec {
+    bottom: 0px;
+    left: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .secondsec {
+    display: none;
+  }
+}
+
+.seenimages {
+  display: flex;
+}
+
+/* .seenimages.d-flex {
+  display: flex !important;
+  justify-content: space-between;
+} */
+/* h1 .underline {
+  border-bottom: 5px solid #1d272e; 
+} */
+.underline {
+  border-bottom: 5px solid #008d36;
+}
+h1 {
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  line-height: 46px !important;
+  color: #1d272e !important;
+  font-family: Montserra sans-serif !important;
+}
+
+.services {
+  position: relative;
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 8.01%, #000000 100%); */
+  /* z-index: 99999 !IMPORTANT; */
+  margin-bottom: 30px;
+}
+.services img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.ser_name h2 {
+  position: absolute;
+  bottom: 0;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 100%;
+}
+.services:hover img {
+  opacity: 0.3;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.services:hover .middle {
+  opacity: 1;
+}
+.seenimages img {
+  width: 100% !important;
+}
+.services:hover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 8.01%, #000000 100%);
+}
+.abtimg img {
+  width: 100%;
+}
+
+.about {
+  margin-top: 20px;
+}
+section.abtsection {
+  background-color: #f6f9ff;
+}
+
+.about h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  font-family: Montserrat sans-serif;
+  color: #1d272e;
+  margin-bottom: 30px;
+}
+.heading h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #008d36;
+}
+
+.detail ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #1d272e;
+  margin-bottom: 20px;
+}
+.include {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+
+  padding: 10px;
+}
+
+.include:hover {
+  box-shadow: 0px 16px 42px 0px #7090b01a;
+}
+.include_content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #008d36;
+}
+
+/* Carousel */
+
+.how h1 {
+  margin-bottom: 40px;
+}
+
+.how h5 {
+  color: #008d36;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  font-family: Montserrat sans-serif;
+  margin-bottom: 20px;
+}
+img.imghow {
+  margin-left: auto;
+  margin-right: auto;
+
+  display: block;
+  margin-top: 30px;
+}
+.imgg {
+  position: relative;
+}
+
+.play img {
+  position: absolute;
+
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+}
+
+/* custom */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.card {
+  height: 320px;
+  padding: 10px 20px;
+  border: none;
+  border: 1px solid #387ef9;
+}
+.testimonial {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #1d272e;
+  text-align: justify;
+}
+
+.profile {
+  padding-top: 10px;
+  column-gap: 10px;
+}
+.name {
+  font-weight: 700;
+}
+.designation {
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+.owl-carousel {
+  margin-bottom: 15px;
+}
+/* .owl-carousel .owl-stage-outer {
+  padding: 40px 10px;
+  height: 380px;
+} */
+
+.owl-carousel .owl-item img {
+  width: 45px !important;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  border-radius: 50% !important;
+  background: inherit !important;
+  border: 3px solid #bbb;
+  color: #bbb !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  border: 3px solid #1010ca;
+  color: #1010ca !important;
+}
+@media (max-width: 575.5px) {
+  .container {
+    margin: 0px;
+    padding: 20px;
+  }
+}
+
+section.footer {
+  background-color: #008d36;
+}
+
+.footerlogo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.btncnt {
+  background-color: #ffffff;
+  height: 50px;
+  width: 222px;
+  border: 1px solid #000000;
+  box-shadow: 0px 8px 16px -6px #18274b14;
+  box-shadow: 0px 6px 8px -6px #18274b1f;
+  border-radius: 30px;
+  padding: 5px 26px 5px 26px;
+}
+hr {
+  color: #ffffff;
+}
+
+.fhead h5 {
+  font-weight: 700;
+  color: #f39200;
+
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 32px;
+}
+
+.flist ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400 !important;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.col-md-2.col-sm-12.ff {
+  text-align: left;
+}
+.socialicon {
+  text-align: right;
+}
+.col-md-4.col-sm-12.ff.follow {
+  text-align: right;
+}
+.menu {
+  display: flex;
+  justify-content: right;
+  column-gap: 10px;
+}
+
+.copy {
+  display: flex;
+  justify-content: left;
+}
+.row.copyf {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.copy h5 {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.menu a {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 15px; /* Adjust container padding */
+  }
+
+  .navbar-collapse {
+    justify-content: center; /* Center align navbar links */
+  }
+
+  .slider {
+    min-height: 400px; /* Adjust slider height */
+  }
+
+  .secondsec {
+    width: auto; /* Adjust width of the form section */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .secondsec form input,
+  button.btn.btn-outline-primary.btnsub {
+    width: 100%; /* Make form elements full width */
+  }
+
+  .services {
+    margin-bottom: 20px; /* Adjust margin between service items */
+  }
+
+  .about .row {
+    flex-direction: column-reverse; /* Reverse order of about section columns */
+  }
+
+  .include {
+    flex-direction: column; /* Stack included items vertically */
+    align-items: center; /* Center align included items */
+  }
+
+  .how .imgg {
+    text-align: center; /* Center align video image */
+  }
+}
+
+/* For even smaller screens */
+@media only screen and (max-width: 575px) {
+  .firstsec h1 {
+    font-size: 32px; /* Reduce font size of main heading */
+  }
+
+  .ser_name h2 {
+    font-size: 18px; /* Reduce font size of service names */
+  }
+
+  .testimonial {
+    font-size: 14px; /* Reduce font size of testimonials */
+  }
+}
